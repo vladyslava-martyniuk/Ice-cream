@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ice crem</title>
-    <link rel=stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,10 +16,12 @@
 <body>
     <header class="header">
     <div class="container">
+        <div class="logo-div">
         <svg width="28" height="55"> 
             <use href="./images/symbol-defs.svg#ice-cream" class="logo-icon"></use>
         </svg>
         <p class="logo-text">ce</p> 
+        </div>
         <nav class="nav" >
             <ul class="list list-nav">
                <li class="nav-item"><a href="./index.html" class="nav-item-link link">Home</a></li>
@@ -31,5 +33,28 @@
         <button type="button" class="header-btn">Buy now</button>
         </div>
     </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+            <h1 class="hero-title">ice cream
+            made with
+            passion</h1>
+            <ul class="quantity-list list">
+                <li class="quantity-item">16</li>
+                <li class="quantity-item">cafes</li>
+                <li class="quantity-item">23</li>
+                <li class="quantity-item">food trucks</li>
+            </ul>
+            <div class="wrapper-interactive-elements">
+                <button type="button" class="interactive elements-btn">Products</button>
+                <a href="#Howit’smade?" class="interactive-elements-link">How it’s made?</a>
+            </div>
+            <div class="wrapper-information">
+                <img src="./images/ice-cream-hero.png" alt="ice-cream" class="information-img">
+                <p class="information-text">Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable experience!</p>
+            </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
