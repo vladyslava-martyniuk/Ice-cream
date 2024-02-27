@@ -231,7 +231,7 @@ background-color: #ABABAB;
 }
 .products{
     padding-top: 68px;
-    padding-bottom: 22px;
+    padding-bottom: 60px;
     background-color: var(--main-text-color);
     background-image: url(../images/bg-products.svg);
 }
@@ -251,4 +251,36 @@ font-family: Seymour One;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 120px;
+}
+.list-products {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.products-item {
+    display: inline-block; 
+    margin: 0 10px; 
+    vertical-align: top; 
+    width: 370px; 
+}
+
+
+.products-item-subtitle{
+    color: var(--add-text-color);
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 44px;
+    margin-top: 12px;
+}
+.products-item-text{
+   color: var(--add-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 0.04em;
+text-align: center;
 }
