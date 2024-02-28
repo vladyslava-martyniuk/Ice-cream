@@ -260,11 +260,9 @@ font-family: Seymour One;
 }
 .products-item {
     display: inline-block; 
-    margin: 0 10px; 
     vertical-align: top; 
-    width: 370px; 
+    flex-basis: calc((100% - 36px)/3);
 }
-
 
 .products-item-subtitle{
     color: var(--add-text-color);
@@ -283,4 +281,32 @@ font-size: 16px;
 line-height: 176%;
 letter-spacing: 0.04em;
 text-align: center;
+}
+.howit’smade{
+    padding-top: 60px;
+    padding-bottom: 73px;
+}
+.howit’smade-text{
+    color: var(--main-text-color);
+    font-weight: 800;
+font-size: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+}
+.howit’smade-title{
+   font-family: Seymour One;
+    color: var(--main-text-color);
+    font-weight: 400;
+font-size: 36px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+}
+.howit’smade-wrapper-div-text{
+  color: var(--main-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 0.04em;
 }
