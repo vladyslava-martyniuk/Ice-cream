@@ -1,117 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ice crem</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Seymour+One&display=swap"
-         rel="stylesheet">
-       <link rel="stylesheet" href="./css/styles.css"> 
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=".css/main.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header class="header">
-    <div class="container">
+      <div class="container">
         <div class="logo-div">
-        <svg width="28" height="55"> 
-            <use href="./images/symbol-defs.svg#ice-cream" class="logo-icon"></use>
-        </svg>
-        <p class="logo-text">ce</p> 
+          <svg width="28" height="55">
+            <use
+              href="./images/symbol-defs.svg#ice-cream"
+              class="logo-icon"
+            ></use>
+          </svg>
+          <p class="logo-text">ce</p>
         </div>
-        <nav class="nav" >
-            <ul class="list list-nav">
-               <li class="nav-item"><a href="./index.html" class="nav-item-link link">Home</a></li>
-               <li class="nav-item" ><a href="#Howit’smade?" class="nav-item-link link">How it’s made?</a></li>
-               <li class="nav-item" ><a href="#Ourproducts" class="nav-item-link link">Our products</a></li>
-               <li class="nav-item" ><a href="#Contact" class="nav-item-link link">Contact</a></li>
-            </ul>
+        <nav class="nav">
+          <ul class="list list-nav">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-item-link link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Howit’smade?" class="nav-item-link link"
+                >How it’s made?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#Ourproducts" class="nav-item-link link">Our products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-item-link link">Contact</a>
+            </li>
+          </ul>
         </nav>
         <button type="button" class="header-btn">Buy now</button>
-        </div>
+      </div>
     </header>
     <main class="main">
-        <section class="hero">
-            <div class="container">
-            <h1 class="hero-title">ice cream <br>
-            made with <br>
-            passion</h1>
-            <ul class=" hero-quantity-list list">
-                <li class="hero-quantity-item"> 
-                    <p class="hero-quantity-item-number">16</p>
-                    <p class="hero-quantity-item-text">cafes</p>
-                </li>
-                <li class="hero-quantity-item"> 
-                    <p class="hero-quantity-item-number">23</p>
-                    <p class="hero-quantity-item-text">food trucks</p>
-                </li>
-            </ul>
-            <div class="hero-wrapper-interactive-elements">
-                <button type="button" class="hero-interactive-elements-btn">Products</button>
-                <a href="#Howit’smade?" class="hero-interactive-elements-link">How it’s made?</a>
-            </div>
-            <div class="hero-wrapper-information">
-                <img src="./images/ice-cream-hero.png" alt="ice-cream" class="hero-information-img">
-                <p class="hero-information-text">Indulge in a scoop of ice <br>cream made with passion and <br> treat your taste buds to an <br>unforgettable experience!</p>
-            </div>
-            </div>
-        </section>
-        <section class="products" id="Ourproducts">
-            <div class="container">
-            <p class="products-text">100% natural</p>
-            <h2 class="products-title">products</h2>
-            <ul class="list list-products">
-                <li class="products-item"> 
-                    <img src="./images/ice-cream-products.png" alt="ice-cream" class="products-item-img">
-                <div class="products-item-wrapper-text-div">
-                    <h3 class="products-item-subtitle ">ice cream</h3>  
-                  <p class="products-item-text">Soft ice cream with a <br> delicate taste. Made with <br>milk, cream, sugar and br natural stabilizer</p>
-                </div>
-                </li>
-                <li class="products-item"> 
-                    <img src="./images/ice-coffee-products.png" alt="ice coffee" class="products-item-img">
-                <div class="products-item-wrapper-text-div">
-                    <h3 class="products-item-subtitle">ice coffee</h3>
-                <p class="products-item-text">Fragrant invigorating drink <br> created from 100% natural <br> ingredients without the use <br> of preservatives and flavor <br> enhancers</p>
-                </div>
-            </li>      
-                <li class="products-item">
-                    <img src="./images/milkshkes-products.png" alt="milkshake" class="products-item-img">
-                    <div class="products-item-wrapper-text-div">
-                    <h3 class="products-item-subtitle">milkshakes</h3>
-                    <p class="products-item-text">Sweet drinks based on milk <br>and ice cream,<br> supplemented with syrups, <br> fruits, berries and other <br> sweets of your choice</p>
-                </div> 
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            ice cream <br />
+            made with <br />
+            passion
+          </h1>
+          <ul class="hero-quantity-list list">
+            <li class="hero-quantity-item">
+              <p class="hero-quantity-item-number">16</p>
+              <p class="hero-quantity-item-text">cafes</p>
             </li>
-            </ul>
-            </div>
-        </section>
-        <section class="howit’smade">
-            <p class="howit’smade-text" >tradition and love </p>
-            <h2 class="howit’smade-title">how it’s made?</h2>
-            <div class="howit’smade-wrapper-div" >
-                <img src="./images/how-it`s-made-cow.png" alt="cow" class="howit’smade-wrapper-div-img">
-                <p class="howit’smade-wrapper-div-text">Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts.  We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.<br>        
-        This is enough to choose ice cream and coffee for any mood!</p>
-        <button type="button" class="howit’smade-wrapper-div-btn"> Read more</button>
-            </div>
-            <ul class="howit’smade-list list">
-                <li class="howit’smade-item">
-                    <p class="howit’smade-item-number">721</p>
-                    <p class="howit’smade-item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-                </li>
-                <li class="howit’smade-item">
-                    <p class="howit’smade-item-number">16kg</p>
-                    <p class="howit’smade-item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-                </li>
-                <li class="howit’smade-item"> 
-                    <p class="howit’smade-item-number">84</p>
-                   <p class="howit’smade-item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-                </li>
-            </ul>
-        </section>
+            <li class="hero-quantity-item">
+              <p class="hero-quantity-item-number">23</p>
+              <p class="hero-quantity-item-text">food trucks</p>
+            </li>
+          </ul>
+          <div class="hero-wrapper-interactive-elements">
+            <button type="button" class="hero-interactive-elements-btn">
+              Products
+            </button>
+            <a href="#Howit’smade?" class="hero-interactive-elements-link"
+              >How it’s made?</a
+            >
+          </div>
+          <div class="hero-wrapper-information">
+            <img
+              src="./images/ice-cream-hero.png"
+              alt="ice-cream"
+              class="hero-information-img"
+            />
+            <p class="hero-information-text">
+              Indulge in a scoop of ice <br />cream made with passion and <br />
+              treat your taste buds to an <br />unforgettable experience!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="products" id="Ourproducts">
+        <div class="container">
+          <p class="products-text">100% natural</p>
+          <h2 class="products-title">products</h2>
+          <ul class="list list-products">
+            <li class="products-item">
+              <div class="product-thumb-img">
+                <img
+                  src="./images/ice-cream-products.png"
+                  alt="ice-cream"
+                  class="products-item-img"
+                />
+              </div>
+              <h3 class="products-item-subtitle">ice cream</h3>
+              <p class="products-item-text">
+                Soft ice cream with a <br />
+                delicate taste. Made with <br />milk, cream, sugar and br
+                natural stabilizer
+              </p>
+            </li>
+            <li class="products-item">
+              <div class="product-thumb-img">
+                <img
+                  src="./images/ice-coffee-products.png"
+                  alt="ice coffee"
+                  class="products-item-img"
+                />
+              </div>
+              <h3 class="products-item-subtitle">ice coffee</h3>
+              <p class="products-item-text">
+                Fragrant invigorating drink <br />
+                created from 100% natural <br />
+                ingredients without the use <br />
+                of preservatives and flavor <br />
+                enhancers
+              </p>
+            </li>
+            <li class="products-item">
+              <div class="product-thumb-img">
+                <img
+                  src="./images/milkshkes-products.png"
+                  alt="milkshake"
+                  class="products-item-img"
+                />
+              </div>
+              <h3 class="products-item-subtitle">milkshakes</h3>
+              <p class="products-item-text">
+                Sweet drinks based on milk <br />and ice cream,<br />
+                supplemented with syrups, <br />
+                fruits, berries and other <br />
+                sweets of your choice
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="howit’smade">
+        <div class="container">
+        <p class="howit’smade-text">tradition and love </p>
+        <h2 class="howit’smade-title">how it’s made?</h2>
+        <div class="howit’smade-wrapper-div">
+          <div class="howit’smade-wrapper-div-img-tumb" >
+          <img src="./images/howit`smade-cow.png" alt="cow" class="howit’smade-wrapper-div-img"></div>
+          <div class="howit’smade-wrapper-add-div">
+          <p class="howit’smade-wrapper-div-add-text">Ice is a place where you will become not only a little <br>happier, but also
+            healthier. Health is the main value  <br>for us, and we follow it when creating our handmade <br>desserts. <br> We use
+            traditional recipes and 100% natural ingredients. Our <br> products are so natural that they can be given to children <br>
+            from the age of three years. Sweets lovers can expect 55 <br> types of ice cream, 15 types of coffee and 23
+            milkshakes.<br>
+            This is enough to choose ice cream and coffee for any mood!</p>
+          <button type="button" class="howit’smade-wrapper-div-btn"> Read more</button>
+        </div>
+        </div>
+        <ul class="howit’smade-list list">
+          <li class="howit’smade-item">
+            <p class="howit’smade-item-number">721</p>
+            <p class="howit’smade-item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+          <li class="howit’smade-item">
+            <p class="howit’smade-item-number">16 kg</p>
+            <p class="howit’smade-item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+          <li class="howit’smade-item">
+            <p class="howit’smade-item-number">84</p>
+            <p class="howit’smade-item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <section class="reiview" >
+        <div class="container">
+          <img  class="reiview-img-first"src="./images/reiview-bg.jpg" alt=" ice-creams">
+          <img  class="reiview-img-second"src="./images/reiview-human.jpg" alt=" woman">
+          <div class="reiview-text-div">
+          <p class="reiview-text">I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful
+          serving, cozy atmosphere and polite staff.</p>
+        </div>
+          <h3 class="reiview-text-about">Emily, Los Angeles</h3>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
