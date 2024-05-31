@@ -338,7 +338,7 @@ text-align: center;
 }
 .howit’smade {
     padding-top: 60px;
-    padding-bottom: 73px;
+    padding-bottom: 178px;
 }
 .howit’smade-wrapper-div{
     display: flex;
@@ -464,9 +464,56 @@ cursor: pointer;
    background-color: #fff;
        background-image: url(../images/bg-products.svg); 
        padding-bottom: 100px;  
-       padding-top: 140px;    
+       padding-top: 464px; 
+       position: relative;   
 }
-.reiview-img-first{
+.reiview-img{
 position: absolute; 
-
+top: -98px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 24px;
+}
+.rewiew-div-img{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+}
+.reiview-img-div{
+  border-radius: 50%;
+  
+}
+.reiview-text-div{
+    background-color:var(--main-bg-color) ;
+    border-radius: 24px;
+}
+.reiview-text{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color:  var(--main-text-color);
+      padding: 43px 109px;
+}
+.reiview-text-about{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        text-align: center;
+        color: var(--add-text-color);
+        margin-top: 32px;
+       
+}
+.reiview-text-about::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-bg-color);
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 520px;
 }
